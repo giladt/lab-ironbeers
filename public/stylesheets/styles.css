@@ -3,5 +3,16 @@ white: #f7f9f9;
 light-blue: #2081c3;
 dark-blue: #0a2c42;
 grey: #bfbfbf;
-font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.small_beer {
+  height: 200px;
+}
+
+.main_img {
+  padding: 2rem 0;
+}

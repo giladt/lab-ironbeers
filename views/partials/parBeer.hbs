@@ -1,0 +1,19 @@
+<article class='col'>
+  <div class="col">
+    <img class='small_beer' src="{{image_url}}" alt="{{name}} beer">
+  </div>
+
+  <div class="row">
+    <h1> 
+      {{#if id}}
+        <a href="/beers/{{id}}">{{ name }}</a>
+      {{else}}
+        {{ name }}
+      {{/if}} 
+    </h1>
+  </div>
+  <div class="row">
+    <small> {{ tagline }} </small>
+    <p> {{ description }} </p>
+  </div>
+</article>
